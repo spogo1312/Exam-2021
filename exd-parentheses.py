@@ -14,9 +14,11 @@ while i < len(chars):
             s = s + chars[i]
             i += 1
         new_line = False
-        s = s + "\n"           # \n is a new line character
+        #s = s + "\n"           # \n is a new line character
+        print(s)
+        s = ""
     if chars[i] == "\n":
         new_line = True
     i += 1
 
-print(s[:-1]) #the [:-1] prints the string without the last character because i add \n at the end of every perentheses 
+#print(s[:-1]) #the [:-1] prints the string without the last character because i add \n at the end of every perentheses 
